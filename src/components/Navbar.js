@@ -18,6 +18,10 @@ function Navbar(){
        
         width={201}
         height={52}/>
+        <img src={logo}
+       
+       width={201}
+       height={52}/>
         
 
        
