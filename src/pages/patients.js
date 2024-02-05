@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default function patients() {
+function Patients() {
   return ( <>
-    <h1 className='home'>EPIC</h1>
+    <h1 className='home'>hfhtc</h1>
   </>
 );
   
 }
+
+export default Patients;

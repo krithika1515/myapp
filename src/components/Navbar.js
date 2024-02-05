@@ -24,27 +24,27 @@ function Navbar(){
        
         <ul className="nav-menu" class1="nav-menu.active">
             <li className="nav-items">
-              <Link to='/' className="nav-links" >
+              <Link to='/Home' className="nav-links" >
                 Home
                 
                 </Link>
             </li>
             <li className="nav-items" >
-              <Link to='/' className="nav-links" >
-                Doctor
+              <Link to='/Doctors' className="nav-links" >
+                Doctors
                 
               </Link>
               
             </li>
             <li className="nav-items">
-              <Link to="/" className="nav-links" >
-                patient
+              <Link to="/Patients" className="nav-links" >
+                Patients
                 </Link>
                 
             </li>
             <li className="nav-items">
-              <Link to='/' className="nav-links" >
-                pharmacy
+              <Link to='/Pharmacy' className="nav-links" >
+                Pharmacy
                 </Link>
                 
             </li>

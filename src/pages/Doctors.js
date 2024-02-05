@@ -1,9 +1,10 @@
 import React from 'react';
 
-
-
-const Doctors = () => {
-  return <h1>Blog Articles</h1>;
-};
-
+function Doctors() {
+  return (  
+    <>
+      <h1 className='Doctors'>jkdbfhjsv</h1>
+    </>
+  );
+}
 export default Doctors;

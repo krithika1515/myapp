@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-export default function pharmacy() {
+export default function Pharmacy() {
   return (
     <>
-    <h1 className='home'>EPIC</h1>
+    <h1 className='Pharmacy'>babyee</h1>
   </>
 );
   
