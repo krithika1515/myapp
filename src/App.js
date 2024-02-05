@@ -1,32 +1,27 @@
 import React from 'react';
-import ReactDom from 'react-dom/client';
+import './App.css';
 import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route,Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import Doctors from './pages/Doctors';
 import Patients from './pages/Patients';
 import Pharmacy from './pages/Pharmacy';
-
-import './App.css';
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-
-
-import './App.css';
+import Blog from './pages/Blog';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path="Home" element={<Home />}>
-          <Route path='Doctors' element={<Doctors />} />
-          <Route path="Patients" element={<Patients />} />
-          <Route path="Pharmacy" element={<Pharmacy />} />
+      <Switch>
+        <Route path="/" element={<Home />}>
+        <Route path='/doctors' element={<Doctors />} />
+          <Route path="/Patients" element={<Patients />} />
+          <Route path="/pharmacy" element={<Pharmacy />} />
+          <Route path="blogs" element={<Blog />} />
 
         </Route>
 
-      </Routes>
+      </Switch>
     </BrowserRouter>
 
   );
